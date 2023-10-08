@@ -3,6 +3,6 @@ package foo
 import "fmt"
 
 func PrFoo(s string) {
-  fmt.Println("from foo: %s", s)
+  fmt.Printf("print from foo: %s\n", s)
 }
 
